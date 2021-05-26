@@ -13,6 +13,10 @@
 		F9C57A32265E7E3A00E8C5B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C57A31265E7E3A00E8C5B9 /* Assets.xcassets */; };
 		F9C57A35265E7E3A00E8C5B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C57A34265E7E3A00E8C5B9 /* Preview Assets.xcassets */; };
 		F9C57A38265E7E3A00E8C5B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C57A36265E7E3A00E8C5B9 /* LaunchScreen.storyboard */; };
+		F9C57A41265E8CC900E8C5B9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C57A40265E8CC900E8C5B9 /* HomeView.swift */; };
+		F9C57A44265E8DEE00E8C5B9 /* TimelineDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C57A43265E8DEE00E8C5B9 /* TimelineDetailView.swift */; };
+		F9C57A48265E8F1900E8C5B9 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C57A47265E8F1900E8C5B9 /* TimelineView.swift */; };
+		F9C57A4F265E9FAA00E8C5B9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C57A4E265E9FAA00E8C5B9 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		F9C57A34265E7E3A00E8C5B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F9C57A37265E7E3A00E8C5B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9C57A39265E7E3A00E8C5B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9C57A40265E8CC900E8C5B9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F9C57A43265E8DEE00E8C5B9 /* TimelineDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineDetailView.swift; sourceTree = "<group>"; };
+		F9C57A47265E8F1900E8C5B9 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		F9C57A4E265E9FAA00E8C5B9 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,11 @@
 		F9C57A2A265E7E3700E8C5B9 /* VumonicTask */ = {
 			isa = PBXGroup;
 			children = (
-				F9C57A2B265E7E3700E8C5B9 /* AppDelegate.swift */,
 				F9C57A2D265E7E3700E8C5B9 /* SceneDelegate.swift */,
+				F9C57A2B265E7E3700E8C5B9 /* AppDelegate.swift */,
 				F9C57A2F265E7E3700E8C5B9 /* ContentView.swift */,
+				F9C57A4C265E9F5000E8C5B9 /* Home */,
+				F9C57A4D265E9F6B00E8C5B9 /* Profile */,
 				F9C57A31265E7E3A00E8C5B9 /* Assets.xcassets */,
 				F9C57A36265E7E3A00E8C5B9 /* LaunchScreen.storyboard */,
 				F9C57A39265E7E3A00E8C5B9 /* Info.plist */,
@@ -73,6 +83,24 @@
 				F9C57A34265E7E3A00E8C5B9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F9C57A4C265E9F5000E8C5B9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F9C57A40265E8CC900E8C5B9 /* HomeView.swift */,
+				F9C57A43265E8DEE00E8C5B9 /* TimelineDetailView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F9C57A4D265E9F6B00E8C5B9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F9C57A4E265E9FAA00E8C5B9 /* ProfileView.swift */,
+				F9C57A47265E8F1900E8C5B9 /* TimelineView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +174,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9C57A2C265E7E3700E8C5B9 /* AppDelegate.swift in Sources */,
+				F9C57A48265E8F1900E8C5B9 /* TimelineView.swift in Sources */,
+				F9C57A41265E8CC900E8C5B9 /* HomeView.swift in Sources */,
 				F9C57A2E265E7E3700E8C5B9 /* SceneDelegate.swift in Sources */,
+				F9C57A44265E8DEE00E8C5B9 /* TimelineDetailView.swift in Sources */,
+				F9C57A4F265E9FAA00E8C5B9 /* ProfileView.swift in Sources */,
 				F9C57A30265E7E3700E8C5B9 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
